@@ -1,0 +1,78 @@
+body
+{
+    width: 600px;
+    display: boxed;
+    margin: auto;
+    border: 2px solid #004d99;
+    padding: 5px;
+    font-family:Helvetica;
+}
+header
+{
+    text-align: center;
+    background-color: #2f90ff;
+    padding: 5px;
+}
+header a
+{
+    text-decoration: none;
+    background-color: rgb(23,77,154);
+    padding: 5px;
+    color:white;
+    
+}
+header a:focus
+{
+    background-color: darkolivegreen;
+}
+header li
+{
+    display: inline;
+}
+img
+{
+    width: 600px;
+}
+h1
+{
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+}
+h2
+{
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    padding:5px;
+}
+table,
+tr,
+th,
+td
+{
+    border: 2px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+th:only-child
+{
+    background-color: #2F90FF;
+}
+tr:nth-child(odd)
+{
+    background-color: #99CCFF;
+}
+footer
+{
+    text-align: center;
+    background-color: rgb(23,77,154);
+    padding:5px;
+}
+footer a
+{
+    color: white;
+    text-decoration: none;
+}
